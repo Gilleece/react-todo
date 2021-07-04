@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 //Component imports
 import Form from './components/Form'
+import List from './components/TodoList'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <h3 className="text-center">A simple todo list, made with React!</h3>
       <Form />
+      <List />
     </div>
   );
 }
