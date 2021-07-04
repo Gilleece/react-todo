@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>TEST HEADER 1</h1>
+      <header>
+        <h1>Todo List</h1>        
+      </header>
+      <h3 className="text-center">A simple todo list, made with React!</h3>
     </div>
   );
 }
