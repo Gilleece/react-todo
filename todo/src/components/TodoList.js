@@ -4,6 +4,7 @@ import Todo from "./Todo"
 
 
 const List = ({ todos, setTodos }) => {
+    console.log(todos);
     return (
         <div className="todo-container">
             <ul className="todo-list">
