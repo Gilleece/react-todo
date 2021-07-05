@@ -14,7 +14,7 @@ function App() {
       </header>
       <h3 className="text-center">A simple todo list, made with React!</h3>
       <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText}/>
-      <List todos={todos} />
+      <List setTodos={setTodos} todos={todos} />
     </div>
   );
 }
